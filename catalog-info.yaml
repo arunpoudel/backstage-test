@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: arun-test
+  title: Testing
+  description: |
+    Testing backstage and mermaid
+  annotations:
+    github.com/project-slug: arunpoudel/backstage-test
+    backstage.io/adr-location: docs/decisions
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: production
+  owner: arunpoudel
+  system: arunpoudel
