@@ -27,7 +27,7 @@ multiple data sinks (Currently only Big Query and gRPC Service)
 
 ### The Project System Diagram - Option 1
 
-```language-mermaid
+```mermaid
 C4Context
     title The Project System Diagram - Option 1
 
