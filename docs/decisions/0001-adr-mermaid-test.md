@@ -27,7 +27,7 @@ multiple data sinks (Currently only Big Query and gRPC Service)
 
 ### The Project System Diagram - Option 1
 
-`mermaid
+```mermaid
 C4Context
     title The Project System Diagram - Option 1
 
@@ -47,4 +47,4 @@ C4Context
     Person(api_user, "User", "A user of the API")
 
     Rel_U(api_user, grpc_server, "Fetch/Subscribe", "GRPC")
-`
+```
